@@ -1,0 +1,76 @@
+/* 각 팀원들 제작한 css파일 호출 */
+@import url('./second quadrant.css');  /* 주영 */
+@import url('./style.css');            /* 민재 */
+
+#wrap {
+  background: #dae9f5;
+  text-align: center;
+  margin: auto;
+  overflow: hidden;
+}
+#mainwrap {
+  display: inline-block;
+  margin: 17.5rem auto -0.7rem;
+  padding-bottom: 23rem;
+  overflow: visible;
+  position: relative;
+  width: 1500px;
+}
+#left_cont {position: relative; 
+            width: 510px;   /* 화면을 따라 작아지려면 calc나 %써야할듯 */}
+@font-face {
+  font-family: 'NanumSquareRound';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  margin: 0;
+  padding: 0;
+  color: #444;
+  line-height: 1.5;
+  vertical-align: baseline;
+  font-size: 10px;
+}
+* {
+  /* 초기화 */
+  margin: 0;
+  padding: 0;
+  /* /초기화 */
+
+  /* 가운데정렬 */
+  text-align: center;
+  /* /가운데정렬 */
+
+  /* 전역글꼴 */
+  font-family: nanumsquareround;
+  font-weight: 400;
+  /* /전역글꼴 */
+}
+
+#wrap {
+  background: #dae9f5;
+  text-align: center;
+  margin: auto;
+  overflow: hidden;
+}
+#mainwrap {
+  display: inline-block;
+  margin: 17.5rem auto -0.7rem;
+  padding-bottom: 23rem;
+  overflow: visible;
+  position: relative;
+  width: 1500px;
+}
+#mainwrap {
+  background: #dae9f5;
+  text-align: center;}
+
+#left_cont {position: relative; 
+            width: 510px;   /* 화면을 따라 작아지려면 calc나 %써야할듯 */}
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

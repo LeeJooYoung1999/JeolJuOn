@@ -1,23 +1,3 @@
-@import url('./main.css');
-#wrap {
-  background: #dae9f5;
-  text-align: center;
-  margin: auto;
-  overflow: hidden;
-}
-#mainwrap {
-  display: inline-block;
-  margin: 17.5rem auto -0.7rem;
-  padding-bottom: 23rem;
-  overflow: visible;
-  position: relative;
-  width: 1500px;
-}
-#left_cont {position: relative; 
-            width: 510px;   /* 화면을 따라 작아지려면 calc나 %써야할듯 */}
-            
-/* ^^여기까지가 내가맡은곳 보다 상위레벨 스케일^^ */
-
 /* 1사분면&2사분면 공통속성 시작*/
 .sec1 {
   height: 420px;
