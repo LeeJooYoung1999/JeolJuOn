@@ -4,19 +4,25 @@
   border-radius: 20px;
   background-color: #7862bf;  /* 색상변경 slateblue -->#7862bf */
   color: white;
-  padding: 40px 40% 24px 38px; /* 절주온 f12에 나와있는대로 패딩수치 변경 */
+  padding: 40px 20px 24px 38px; /* 절주온 f12에 나와있는대로 패딩수치 변경 */
   position: relative;
   overflow: hidden;
+  border: none;  /* 아웃라인 안보이게 처리 */
+  display: flex;
+  align-items: center;
 }
-.sec2 span:nth-child(1) {
+/* .sec2 span:nth-child(1) {
   float: left;
 }
 .sec2 span:nth-child(2) {
   float: right;
-}
+} */
 #sec2_character {
   width: 150px;
   height: 149.41px;
+  display: block;
+  box-sizing: border-box;
+  
 }
 .sec2_text,
 .sec2_text_2:hover {
@@ -33,5 +39,8 @@
 /* 주영추가작성 */
 #third_quadrant h2{
   font-size: 22px;
+  text-align: left;
+}
+.sec2_text_2{
   text-align: left;
 }
