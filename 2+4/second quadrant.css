@@ -8,6 +8,9 @@
   border-radius: 20px;
   overflow: hidden;
 }
+.sec1 a:hover {
+    text-decoration: underline;
+}
 /* 1사분면&2사분면 공통속성 끝*/
 
 

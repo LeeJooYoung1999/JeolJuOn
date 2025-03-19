@@ -11,6 +11,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  cursor: pointer;
 }
 /* .sec2 span:nth-child(1) {
   position: absolute;
@@ -38,7 +39,8 @@
   color: white;
 }
 .sec2_text_2:hover {
-  transform: translateX(4px);
+  transform: translateX(10px);
+  transition-duration: 0.6s;
 }
 /* 주영추가작성 */
 #third_quadrant h2 {
