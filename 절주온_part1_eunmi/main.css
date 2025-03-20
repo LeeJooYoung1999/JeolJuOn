@@ -1,7 +1,3 @@
-/* 각 팀원들 제작한 css파일 호출 */
-/* @import url('./second quadrant.css');  주영 */
-/* @import url('./style.css');            민재 */
-
 /* 사이트 기본글꼴 호출 */
 @font-face {
     font-family: "NanumSquareRound";
@@ -37,12 +33,11 @@ html {
 }
 /* ------------------전역속성 끝 -----------------*/
 
-/* 
-.ellipsis {     말줄임표 코딩
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}    */
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 
 /* ------------mainteam 공통적용속성 ----------------*/
 #wrap {
@@ -67,7 +62,3 @@ html {
 }
 /* #mainwrap = 절주온 사이트중 메인영역을 덮는 막 */
 /* mainwrap하위로 main팀 팀원4명의 html이 들어올듯? */
-
-/* #left_cont {position: relative; 
-            width: 510px;   화면을 따라 작아지려면 calc나 %써야할듯}
-left_cont = 주영, 민재의 html코드가 하위로 들어오는 모체 */
