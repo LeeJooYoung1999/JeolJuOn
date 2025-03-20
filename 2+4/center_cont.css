@@ -1,0 +1,31 @@
+/* 임시 */
+#right_cont{
+    width: 510px;
+    position: relative;
+    background-color: aliceblue;
+}
+/* 임시 */
+
+#mainwrap > * {
+
+}
+#center_cont{
+    position: relative;
+    width: 441px;
+    height: 620px;
+    border: 7px solid rgba(255, 255, 255, .8);
+    overflow: visible;
+
+}
+#center_cont .subject{
+    padding-top: 95px;
+    padding-bottom: 10px;  
+}
+#center_cont .text p{
+
+}
+.cent_character{
+    display: block;
+    background: url(./source/campaign_character.png) no-repeat center bottom / 100%;
+    height: 272px;
+}

@@ -1,0 +1,129 @@
+/* 개발 후 지우기 */
+/* body {
+  /* background-color: aqua;} */
+ */
+
+.mainWrap * {
+  border: 1px solid black;
+  background-color: aliceblue;
+}
+
+/* 전체에 적용 되는 것 */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.cont_right {
+  position: relative;
+  width: 510px;
+}
+
+.section1 {
+  box-sizing: border-box;
+
+  width: 510px;
+
+  border-radius: 50%;
+  border: 1px solid black;
+
+  position: relative;
+  background-color: blueviolet;
+}
+
+/* 1번 */
+.section1 .title {
+  /* background-color: red; */
+
+  height: 80px;
+
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  font-size: 1.5rem;
+  /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+  font-weight: 900;
+}
+
+/* 2번 */
+.section1 .article_tab {
+  /* background-color: yellow; */
+
+  height: 60px;
+
+  display: flex;
+  align-items: center;
+
+  font-size: 1.5rem;
+  font-weight: 400px;
+  color: rgb(70, 70, 70);
+}
+
+.section1 h3 {
+  padding-left: 50px;
+}
+
+.section1 .article_tab p {
+  margin-left: auto;
+  padding-left: 50px;
+}
+
+/* 3번 */
+.section1 .notice,
+.section1 .news,
+.section1 .media {
+  /* background-color: green; */
+  height: 250px;
+
+  position: absolute;
+  width: 100%;
+}
+
+/*  */
+.section1 .notice a strong,
+.section1 .news a strong,
+.section1 .media a strong {
+  font-size: 2rem;
+
+  display: block;
+  text-align: left;
+  padding: 0 5%;
+}
+
+.section1 .notice p,
+.section1 .news p,
+.section1 .media p {
+  font-size: 1.5rem;
+
+  display: block;
+  text-align: left;
+  padding: 0 5%;
+}
+
+/* 3번 하단 */
+
+.section1 .notice article {
+  width: 100%; /* 모든 article 요소의 너비를 동일하게 설정 */
+}
+
+.section1 .notice article:nth-of-type(2),
+.section1 .notice article:nth-of-type(3) {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section1 article:nth-of-type(2) p:nth-child(1),
+.section1 article:nth-of-type(3) p:nth-child(1) {
+  width: 350px;
+}
+
+/* hr */
+.section1 hr {
+  border: 0.1px dotted black;
+}
+
+/* 말줄임표 */
+.section1 .title .ellipsis {
+  white-space: nowrap; /* 한 줄로 텍스트 유지 */
+  overflow: hidden; /* 넘치는 텍스트 숨김 */
+  text-overflow: ellipsis; /* 넘치는 텍스트를 "..."으로 표시 */
+}
