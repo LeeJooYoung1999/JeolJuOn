@@ -9,11 +9,10 @@
   overflow: hidden;
 }
 #mainwrap {
-  display: inline-block;
+  position: inline-block;
   margin: 17.5rem auto -0.7rem;
   padding-bottom: 23rem;
   overflow: visible;
-  position: relative;
   width: 1500px;
   display: flex;
 }
