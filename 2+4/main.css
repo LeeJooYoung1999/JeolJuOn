@@ -15,6 +15,7 @@
   overflow: visible;
   position: relative;
   width: 1500px;
+  display: flex;
 }
 #left_cont {
   position: relative;
@@ -68,6 +69,7 @@ html {
 #mainwrap {
   background: #dae9f5;
   text-align: center;
+  display: flex;
 }
 
 #left_cont {
