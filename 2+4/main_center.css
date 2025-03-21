@@ -2,7 +2,4 @@
   width: 70%; /* 중앙 콘텐츠 너비 조정 */
   border: 1px solid black;
   position: relative;
-  margin: auto;
-  padding: auto;
-  position: relative;
 }
