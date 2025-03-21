@@ -1,6 +1,6 @@
 /* 각 팀원들 제작한 css파일 호출 */
-@import url('./second quadrant.css');  /* 주영 */
-@import url('./style.css');            /* 민재 */
+@import url('./second quadrant.css'); /* 주영 */
+@import url('./style.css'); /* 민재 */
 
 #wrap {
   background: #dae9f5;
@@ -16,8 +16,10 @@
   position: relative;
   width: 1500px;
 }
-#left_cont {position: relative; 
-            width: 510px;   /* 화면을 따라 작아지려면 calc나 %써야할듯 */}
+#left_cont {
+  position: relative;
+  width: 510px; /* 화면을 따라 작아지려면 calc나 %써야할듯 */
+}
 @font-face {
   font-family: 'NanumSquareRound';
   src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff')
@@ -65,12 +67,15 @@ html {
 }
 #mainwrap {
   background: #dae9f5;
-  text-align: center;}
+  text-align: center;
+}
 
-#left_cont {position: relative; 
-            width: 510px;   /* 화면을 따라 작아지려면 calc나 %써야할듯 */}
+#left_cont {
+  position: relative;
+  width: 510px; /* 화면을 따라 작아지려면 calc나 %써야할듯 */
+}
 .ellipsis {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
