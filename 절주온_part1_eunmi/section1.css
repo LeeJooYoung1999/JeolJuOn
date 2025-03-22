@@ -113,7 +113,7 @@
 
 .section1 .article_tab .nes::after {
     content: "";
-    width: 44%;
+    width: 40%;
     height: 10px;
     background-color: rgba(58, 109, 213, 0.12);
 
@@ -234,6 +234,13 @@
 .section1 article:nth-of-type(2) p:nth-child(1),
 .section1 article:nth-of-type(3) p:nth-child(1) {
     width: 350px;
+}
+
+/* 3번 호버 */
+
+.section1 .ellipsis:hover,
+.section1 .two:hover {
+    text-decoration: underline;
 }
 
 /* hr */
