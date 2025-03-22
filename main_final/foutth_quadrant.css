@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-.sec4 {
+#cont_right .sec4 {
   width: 510px;
   height: 180px;
   color: #fff;
@@ -32,9 +32,10 @@
 
 .list a {
   text-decoration: none;
+  color: #fff;
 }
 
-li:hover {
+#cont_right li:hover {
   text-decoration: underline;
 }
 
