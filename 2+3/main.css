@@ -82,7 +82,7 @@ body * {
   content: '';}
 #cont_left {position: relative; 
             width: 510px;   /* 화면을 따라 작아지려면 calc나 %써야할듯 */}
-/* left_cont = 주영, 민재의 html코드가 하위로 들어오는 모체 */
+/* cont_left = 주영, 민재의 html코드가 하위로 들어오는 모체 */
 
 
  
