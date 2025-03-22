@@ -12,6 +12,7 @@
   justify-content: flex-start;
   align-items: center;
   cursor: pointer;
+  box-sizing: content-box;
 }
 /* .sec2 span:nth-child(1) {
   position: absolute;
@@ -28,7 +29,9 @@
   box-sizing: border-box;
   margin-left: auto;      /* 부모가 flex일때 얘만 오른쪽 정렬 */ 
 }
-
+.sec2_text_2{
+  margin-top: 20px;
+}
 .sec2_text,
 .sec2_text_2:hover {
   text-decoration: none;

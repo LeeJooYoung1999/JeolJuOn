@@ -1,14 +1,16 @@
-
-/* body {
-    background-color: aqua;
-} */
+body {
+  background-color: aqua;
+  margin: 50px;
+}
 
 /* section1 전체 */
+* {
+  text-decoration: none;
+}
 .section1 {
   box-sizing: border-box;
 
-    width: 510px;
-    height: 420px;
+  width: 510px;
 
   padding: 22.5px;
   border-radius: 10%;
@@ -30,13 +32,13 @@
 }
 
 .section1 .title h2 {
-    font-size: 2.4rem;
-    font-weight: 700;
+  font-size: 2.5rem;
+  font-weight: 700;
 }
 
-.section1 img {
+/* .section1 img {
   width: 48px;
-}
+} */
 
 /* 2번. 공지사항 소식 언론보도 더보기 */
 .section1 .article_tab {
@@ -51,23 +53,23 @@
   background-color: #f6f7f8;
 }
 
-.section1 .article_tab a {
-  text-decoration-line: none;
+/* .section1 .article_tab a {
+  text-decoration: none;
   color: black;
-}
+} */
 
 .section1 h3 {
   padding-left: 40px;
 
   font-size: 1.8rem;
-  font-weight: 400;
+  /* font-weight: 400; */
 }
 
 .section1 .article_tab p {
   padding-left: 120px;
 
-    font-size: 1.4rem;
-    color: #767676;
+  font-size: 1.5rem;
+  color: #767676;
 }
 
 /* 3번 기사 */
@@ -79,19 +81,32 @@
   text-overflow: ellipsis;
 }
 
+/* hover 추가 -kjy */
+.ellipsis:hover {
+  text-decoration: underline;
+}
+
+.notice1:hover {
+  text-decoration: underline;
+}
+.article_tab:hover {
+  text-decoration: underline;
+}
+/* hover 끝 -kjy */
+
 .section1 .notice a strong,
 .section1 .news a strong,
 .section1 .media a strong {
-    width: 110%;
-    font-size: 2rem;
-    font-weight: 600;
+  width: 110%;
+  font-size: 2.2rem;
+  font-weight: 600;
 
   display: block;
   text-align: left;
   padding: 0 5%;
 
-  text-decoration: none;
-  color: black;
+  /* text-decoration: none; */
+  /* color: black; */
 
   padding-top: 30px;
   padding-bottom: 20px;
@@ -108,36 +123,30 @@
   text-align: left;
   padding: 0 5%;
 
-  text-decoration: none;
-  color: black;
+  /* text-decoration: none; */
+  /* color: black; */
 
   width: 110%;
   transform: translateX(-4%);
 
-    line-height: 1.5;
-    margin-right: 10px;
-}
+  line-height: 1.5;
+  margin-right: 10px;
 
-.section1 .notice .two,
-.section1 .news .two .section1 .media .two {
-    height: 3.9rem;
-    font-size: 1.4rem;
-
+  /* white-space: nowrap;
     overflow: hidden;
-}
+    text-overflow: ellipsis; */
 
-.section1 .notice .bottom,
-.section1 .news .bottom,
-.section1 .media .bottom {
-    font-size: 1.4rem;
+  /* display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    white-space: normal; */
 }
 
 .section1 .notice .gray,
 .section1 .news .gray,
 .section1 .media .gray {
-    color: #767676;
-    padding: 0;
-    font-size: 1.4rem;
+  color: #767676;
+  padding: 0;
 }
 
 .section1 .notice .left,
@@ -173,4 +182,43 @@
   border: 0.1px dotted black;
   margin-top: 15px;
   margin-bottom: 20px;
+}
+
+/*  Part4  */
+
+.sec4 {
+  width: 510px;
+  height: 180px;
+  /* padding: 2.5rem; */
+  /* margin: auto; */
+  margin-top: 2rem;
+}
+.list {
+  width: 100%;
+  height: 100%;
+  background-color: #0683b7;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 2.5rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.list a {
+  text-decoration: none;
+}
+
+li:hover {
+  text-decoration: underline;
+}
+
+.img {
+  width: 6rem;
+  height: 5rem;
+  margin-left: 1rem;
+  /* margin: 1rem; */
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
 }
