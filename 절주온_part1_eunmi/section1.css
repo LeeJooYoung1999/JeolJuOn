@@ -187,17 +187,31 @@
 }
 
 .section1 .notice .two,
-.section1 .news .two .section1 .media .two {
+.section1 .news .two,
+.section1 .media .two {
     height: 3.9rem;
     font-size: 1.4rem;
+    margin-bottom: 5px;
 
     overflow: hidden;
 }
 
-.section1 .notice .bottom,
+.section1 .media .two {
+    height: 1.8rem;
+}
+
+.section1 .notice .bottom {
+    font-size: 1.4rem;
+    display: inline-block;
+    left: 10px;
+}
+
 .section1 .news .bottom,
 .section1 .media .bottom {
     font-size: 1.4rem;
+    display: inline-block;
+    left: 10px;
+    transform: translateX(-33px);
 }
 
 .section1 .notice .gray,
@@ -206,22 +220,25 @@
     color: #767676;
     padding: 0;
     font-size: 1.4rem;
+    transform: translateX(13px);
+
+    display: inline;
 }
 
 .section1 .notice .left,
 .section1 .news .left,
 .section1 .media .left {
     padding-left: 25px;
-}
-
-.section1 .notice .gray {
-    padding-bottom: 10px;
+    display: block;
+    transform: translateX(-22px);
 }
 
 /* 3번 하단 */
 
-.section1 .notice article {
-    width: 100%; /* 모든 article 요소의 너비를 동일하게 설정 */
+.section1 .notice article,
+.section1 .news article,
+.section1 .media article {
+    width: 100%;
 }
 
 .section1 .notice article:nth-of-type(2),
