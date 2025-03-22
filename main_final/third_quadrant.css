@@ -28,7 +28,7 @@
   height: 149.41px;
   display: block;
   box-sizing: border-box;
-  margin-left: auto;      /* 부모가 flex일때 얘만 오른쪽 정렬 */ 
+  margin-left: auto; /* 부모가 flex일때 얘만 오른쪽 정렬 */
 }
 /* ---------3사분면의 기본 아웃라인 디자인 끝------- */
 
@@ -42,7 +42,7 @@
   height: 116px;
   line-height: 1.2rem;
 }
-#sec2_textbox strong{
+#sec2_textbox strong {
   line-height: 35px;
 }
 /*--------------3사분면 텍스트박스 끝----------- */
