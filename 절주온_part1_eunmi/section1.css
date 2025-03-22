@@ -1,12 +1,14 @@
-body {
-  background-color: aqua;
-}
+
+/* body {
+    background-color: aqua;
+} */
 
 /* section1 전체 */
 .section1 {
   box-sizing: border-box;
 
-  width: 510px;
+    width: 510px;
+    height: 420px;
 
   padding: 22.5px;
   border-radius: 10%;
@@ -28,8 +30,8 @@ body {
 }
 
 .section1 .title h2 {
-  font-size: 2.5rem;
-  font-weight: 700;
+    font-size: 2.4rem;
+    font-weight: 700;
 }
 
 .section1 img {
@@ -64,8 +66,8 @@ body {
 .section1 .article_tab p {
   padding-left: 120px;
 
-  font-size: 1.5rem;
-  color: #767676;
+    font-size: 1.4rem;
+    color: #767676;
 }
 
 /* 3번 기사 */
@@ -80,9 +82,9 @@ body {
 .section1 .notice a strong,
 .section1 .news a strong,
 .section1 .media a strong {
-  width: 110%;
-  font-size: 2.2rem;
-  font-weight: 600;
+    width: 110%;
+    font-size: 2rem;
+    font-weight: 600;
 
   display: block;
   text-align: left;
@@ -112,24 +114,30 @@ body {
   width: 110%;
   transform: translateX(-4%);
 
-  line-height: 1.5;
-  margin-right: 10px;
+    line-height: 1.5;
+    margin-right: 10px;
+}
 
-  /* white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis; */
+.section1 .notice .two,
+.section1 .news .two .section1 .media .two {
+    height: 3.9rem;
+    font-size: 1.4rem;
 
-  /* display: -webkit-box;
-    -webkit-line-clamp: 2;
     overflow: hidden;
-    white-space: normal; */
+}
+
+.section1 .notice .bottom,
+.section1 .news .bottom,
+.section1 .media .bottom {
+    font-size: 1.4rem;
 }
 
 .section1 .notice .gray,
 .section1 .news .gray,
 .section1 .media .gray {
-  color: #767676;
-  padding: 0;
+    color: #767676;
+    padding: 0;
+    font-size: 1.4rem;
 }
 
 .section1 .notice .left,

@@ -1,16 +1,16 @@
-body {
+/* body {
     background-color: aqua;
-}
+} */
 
 /* section1 전체 */
 .section1 {
     box-sizing: border-box;
 
     width: 510px;
+    height: 420px;
 
     padding: 22.5px;
-    /* border-radius: 10%; */
-    border-radius: 20px;
+    border-radius: 10%;
 
     position: relative;
     background-color: white;
@@ -29,7 +29,7 @@ body {
 }
 
 .section1 .title h2 {
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     font-weight: 700;
 }
 
@@ -65,7 +65,7 @@ body {
 .section1 .article_tab p {
     padding-left: 120px;
 
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     color: #767676;
 }
 
@@ -82,7 +82,7 @@ body {
 .section1 .news a strong,
 .section1 .media a strong {
     width: 110%;
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-weight: 600;
 
     display: block;
@@ -115,19 +115,20 @@ body {
 
     line-height: 1.5;
     margin-right: 10px;
-                                    /* 요기 f12대로 p를 span으로 바꾸고
-                                    display: block;
-                                    height: 44px;
-                                    overflow: hidden; 으로 하면 어떤지...? */
+}
 
-    /* white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis; */
+.section1 .notice .two,
+.section1 .news .two .section1 .media .two {
+    height: 3.9rem;
+    font-size: 1.4rem;
 
-    /* display: -webkit-box;
-    -webkit-line-clamp: 2;
     overflow: hidden;
-    white-space: normal; */
+}
+
+.section1 .notice .bottom,
+.section1 .news .bottom,
+.section1 .media .bottom {
+    font-size: 1.4rem;
 }
 
 .section1 .notice .gray,
@@ -135,6 +136,7 @@ body {
 .section1 .media .gray {
     color: #767676;
     padding: 0;
+    font-size: 1.4rem;
 }
 
 .section1 .notice .left,

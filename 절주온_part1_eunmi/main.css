@@ -49,7 +49,7 @@ html {
 /* #wrap = 절주온 사이트 전체를 감싸는 막 */
 /* wrap하위로 헤더팀, 푸터팀 html코딩이 들어올듯? */
 #mainWrap {
-    display: inline-block;
+    display: flex;
     margin: 17.5rem auto -0.7rem;
     padding-bottom: 23rem;
     overflow: visible;
@@ -59,6 +59,11 @@ html {
 #mainWrap {
     background: #dae9f5;
     text-align: center;
+    justify-content: space-between;
 }
 /* #mainwrap = 절주온 사이트중 메인영역을 덮는 막 */
 /* mainwrap하위로 main팀 팀원4명의 html이 들어올듯? */
+
+#cont_right {
+    width: 510px;
+}
