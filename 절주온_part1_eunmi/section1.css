@@ -97,13 +97,13 @@
 .section1 .article_tab .ntc::after,
 .section1 .article_tab .abr::after {
     content: "";
-    width: 60%;
+    width: 55%;
     height: 10px;
     background-color: rgba(58, 109, 213, 0.12);
 
     display: inline-block;
     position: absolute;
-    left: 40px;
+    left: 50px;
     top: 13px;
 
     transform: scaleX(0) translateX(-50%);
@@ -119,7 +119,7 @@
 
     display: inline-block;
     position: absolute;
-    left: 40px;
+    left: 49px;
     top: 13px;
 
     transform: scaleX(0);
