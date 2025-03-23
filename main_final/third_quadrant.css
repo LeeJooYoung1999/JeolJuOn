@@ -1,3 +1,4 @@
+/* ---------3사분면의 기본 아웃라인&캐릭터 ------- */
 .sec2 {
   height: 116px; /* 부모인 leftcont에 width가 510px부여된것이 상속되어, 대신 height로 변경. */
   border: 0.5px solid black;
@@ -12,6 +13,7 @@
   justify-content: flex-start;
   align-items: center;
   cursor: pointer;
+  box-sizing: content-box;
 }
 /* .sec2 span:nth-child(1) {
   position: absolute;
@@ -26,9 +28,29 @@
   height: 149.41px;
   display: block;
   box-sizing: border-box;
-  margin-left: auto;      /* 부모가 flex일때 얘만 오른쪽 정렬 */ 
+  margin-left: auto; /* 부모가 flex일때 얘만 오른쪽 정렬 */
 }
+/* ---------3사분면의 기본 아웃라인 디자인 끝------- */
 
+/*--------------3사분면 텍스트박스----------- */
+#third_quadrant h2 {
+  font-size: 22px;
+  text-align: left;
+}
+#sec2_textbox {
+  width: 168px;
+  height: 116px;
+  line-height: 1.2rem;
+}
+#sec2_textbox strong {
+  line-height: 35px;
+}
+/*--------------3사분면 텍스트박스 끝----------- */
+/*--------------3사분면 텍스트박스 하단 화살표----------- */
+.sec2_text_2 {
+  text-align: left;
+  margin-top: 20px;
+}
 .sec2_text,
 .sec2_text_2:hover {
   text-decoration: none;
@@ -42,11 +64,4 @@
   transform: translateX(10px);
   transition-duration: 0.6s;
 }
-/* 주영추가작성 */
-#third_quadrant h2 {
-  font-size: 22px;
-  text-align: left;
-}
-.sec2_text_2 {
-  text-align: left;
-}
+/*--------------3사분면 텍스트박스 하단 화살표 끝----------- */

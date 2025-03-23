@@ -1,6 +1,11 @@
+/*Reset.CSS적용*/
+@import url('./reset.css');
 /* 각 팀원들 제작한 css파일 호출 */
-@import url('./second quadrant.css');  /* 주영 */
-@import url('./style.css');            /* 민재 */
+@import url('./first_quadrant.css'); /* 은미 */
+@import url('./second_quadrant.css'); /* 주영 */
+@import url('./third_quadrant.css'); /* 민재 */
+@import url('./foutth_quadrant.css'); /* 준영 */
+@import url('./cont_center.css');
 
 /* 사이트 기본글꼴 호출 */
 @font-face {
@@ -20,29 +25,24 @@ html {
   vertical-align: baseline;
   font-size: 10px;
 }
-* {
-  /* 초기화 */
-  margin: 0;
-  padding: 0;
-  /* /초기화 */
-
+body * {
   /* 가운데정렬 */
   text-align: center;
   /* /가운데정렬 */
 
   /* 전역글꼴 */
-  font-family: nanumsquareround;
+  font-family: 'NanumSquareRound';
   font-weight: 400;
   /* /전역글꼴 */
 }
 /* ------------------전역속성 끝 -----------------*/
 
-
-.ellipsis {     /* 말줄임표 코딩 */
+.ellipsis {
+  /* 말줄임표 코딩 */
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-}   
+}
 
 /* ------------mainteam 공통적용속성 ----------------*/
 #wrap {
@@ -54,7 +54,7 @@ html {
 /* #wrap = 절주온 사이트 전체를 감싸는 막 */
 /* wrap하위로 헤더팀, 푸터팀 html코딩이 들어올듯? */
 #mainwrap {
-  display: inline-block;
+  display: flex;
   margin: 17.5rem auto -0.7rem;
   padding-bottom: 23rem;
   overflow: visible;
@@ -63,13 +63,26 @@ html {
 }
 #mainwrap {
   background: #dae9f5;
-  text-align: center;}
+  text-align: center;
+  justify-content: space-between;
+}
 /* #mainwrap = 절주온 사이트중 메인영역을 덮는 막 */
 /* mainwrap하위로 main팀 팀원4명의 html이 들어올듯? */
 
-#left_cont {position: relative; 
-            width: 510px;   /* 화면을 따라 작아지려면 calc나 %써야할듯 */}
-/* left_cont = 주영, 민재의 html코드가 하위로 들어오는 모체 */
-
-
- 
+/* mainwrap 배경화면 이미지 */
+#mainwrap::before {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 200%;
+  height: 100%;
+  background: url(./source/bg.jpg) no-repeat center bottom;
+  transform: translateX(-50%);
+  content: '';
+}
+#cont_left {
+  position: relative;
+  width: 510px; /* 화면을 따라 작아지려면 calc나 %써야할듯 */
+}
+/* cont_left = 주영, 민재의 html코드가 하위로 들어오는 모체 */

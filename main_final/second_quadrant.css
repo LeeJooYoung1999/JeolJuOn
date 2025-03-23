@@ -9,10 +9,13 @@
   overflow: hidden;
 }
 .sec1 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
+}
+#cont_left,
+#cont_left * {
+  /* font-family: 'NanumSquareRound';   */
 }
 /* 1사분면&2사분면 공통속성 끝*/
-
 
 /* 제목:최신자료 시작 */
 .subject .icon {
@@ -21,11 +24,12 @@
   height: 54px;
   margin-right: 15px;
   vertical-align: middle;
-  background-image: url(./source/red_comma.png) ;
+  background-image: url(./source/red_comma.png);
 }
 .h2 {
-  display: block; 
-  line-height: 1.1;}
+  display: block;
+  line-height: 1.1;
+}
 .subject {
   margin-bottom: 20px;
   box-sizing: border-box;
@@ -37,8 +41,8 @@
 
 /* 카테고리:4개박스 시작*/
 .datalist {
-  display: flex;        
-  flex-flow: row wrap;  /* 4개의 박스를 외곽박스안에 담아주되, 가로방향(row)으로 채움 */
+  display: flex;
+  flex-flow: row wrap; /* 4개의 박스를 외곽박스안에 담아주되, 가로방향(row)으로 채움 */
 }
 .datalist > li {
   width: 50%;
@@ -61,14 +65,16 @@
 }
 
 .datalist > li span {
-    display: block;
-    line-height: 1.1;
-  }
+  display: block;
+  line-height: 1.1;
+}
 
 /* 하이퍼링크 꾸밈 지우기 */
-a {color: #464646; text-decoration: none;}
+a {
+  color: #464646;
+  text-decoration: none;
+}
 /* 하이퍼링크 꾸밈 지우기 */
-
 
 .datalist .titl {
   display: block;
